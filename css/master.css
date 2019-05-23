@@ -1,0 +1,102 @@
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Cookie', cursive; */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f8eb;
+  color:#05004e;
+  /* background-color: #eeeeee; */
+  /* color: #103c42; */
+  text-align:center;
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  margin:0;
+}
+
+h1{
+  font-family: 'Cookie', cursive;
+  font-size: 5em;
+  margin: 0;
+}
+
+h2,h3{
+  font-family: 'Roboto Slab', serif;
+}
+
+.bigger-red{
+  color:#fd5f00;
+  font-size: 1.25em;
+}
+
+.title{
+  width:500px;
+  display: inline-block;
+  position: relative;
+}
+
+.avatar-gimp{
+  display:inline;
+  position: absolute;
+  left:-150px;
+  top:25px;
+}
+
+.left-text{
+  text-align:left;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+a{
+  text-decoration: none;
+  color:#76b39d;
+}
+
+.underline{
+  padding-bottom: 20px;
+  border-bottom: 1px dashed black;
+
+}
+
+.logo{
+  position: absolute;
+  left:-5em;
+  top:4em;
+}
+
+.push-right{
+  margin-left: 3em;
+}
+
+li{
+  padding-bottom: 1em;
+}
+
+.navbar{
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+
+.navbar a{
+  color: #000;
+  border-top: 2px dotted black;
+}
+
+.navbar a:hover{
+  text-shadow: 0 0 3px #fd5f00;
+      border-top: 2px dotted #fd5f00;
+}
+
+.navbar .selected{
+  text-shadow: 0 0 3px red;
+  border-top: 2px dotted red;
+}
+
+.navbar .selected:hover{
+  text-shadow: 0 0 3px red;
+  border-top: 2px dotted red;
+}
